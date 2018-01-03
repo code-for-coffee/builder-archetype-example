@@ -1,10 +1,10 @@
 {
-  "name": "builder-archetype-example",
+  "name": "builder-archetype-example-dev",
   "version": "1.0.0",
-  "description": "Builder Archetype Example",
+  "description": "Builder Archetype Example (Development)",
   "main": "entry.js",
   "scripts": {
-    "sayhi": "echo \"Hello, this means that Builder works.\" && exit 0"
+    "sayhidev": "echo \"Hello, this means that Builder works (DEV DEPS).\" && exit 0"
   },
   "repository": {
     "type": "git",
@@ -16,12 +16,8 @@
     "url": "https://github.com/code-for-coffee/builder-archetype-example/issues"
   },
   "homepage": "https://github.com/code-for-coffee/builder-archetype-example#readme",
-  "dependencies": {
-    "builder": "^3.2.3",
-    "semver": "^5.4.1",
-    "structz": "^0.2.4"
-  },
   "devDependencies": {
-    "builder-support": "^0.5.0"
-  }
+    "webpack": "^3.10.0"
+  },
+  "peerDependencies": {}
 }
